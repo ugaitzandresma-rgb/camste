@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="Fotos/Title CAMSTE.png">
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+            <figure id="logo">
+                <img src="Fotos/Logo CAMSTE.png" alt="">
+            </figure>
+        </header>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="#">CONFIGURADOR PC</a></li>
+                <li><a href="componentes.html">COMPONENTES</a></li>
+                <li><a href="#">SOPORTE TÉCNICO</a></li>
+                <li><a href="#">FOTOS</a></li>
+                </a></li>
+            </ul>
+        </nav>
+
+        </head>
+
+        <body>
+            <div class="card">
+                <h1>Configurador de PC </h1>
+                <p style="margin:6px 0 12px;font-size:.9rem;color:black ">Selecciona los componentes y calcula tú mismo
+                    la compatibilidad y el precio total.</p>
+
+
+                <div class="grid">
+                    <div>
+                        <label for="cpu">CPU</label>
+                        <select id="cpu">
+                            <option>Intel i5-13600K — €320</option>
+                            <option>Intel i7-13700K — €450</option>
+                            <option>AMD Ryzen 5 7600X — €260</option>
+                            <option>AMD Ryzen 7 7800X3D — €430</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mb">Placa base</label>
+                        <select id="mb">
+                            <option>ASUS Z790 (LGA1700) — €220</option>
+                            <option>MSI B760 (LGA1700) — €150</option>
+                            <option>Gigabyte X670 (AM5) — €300</option>
+                            <option>ASRock B650 (AM5) — €140</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="gpu">Tarjeta gráfica</label>
+                        <select id="gpu">
+                            <option>NVIDIA RTX 4060 — €280</option>
+                            <option>NVIDIA RTX 4070 — €650</option>
+                            <option>AMD RX 7700 XT — €500</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="ram">Memoria RAM</label>
+                        <select id="ram">
+                            <option>16 GB DDR5 (2x8) — €70</option>
+                            <option>32 GB DDR5 (2x16) — €120</option>
+                            <option>64 GB DDR5 (4x16) — €220</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="gpu">Torre</label>
+                        <select id="gpu">
+                            <option>Personalizado — 87,99 €</option>
+                            <option>Corsair 6500X — 209,99 €</option>
+                            <option>Forgeon Tiberium ARGB Cristal Templado — 149,90 € </option>
+                            <option>Tempset Umbra RGB ATX — 59,99 € </option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="ram">Fuentes de alimentación</label>
+                        <select id="ram">
+                            <option>Corsair RM850e 850W Gold: 850W — 107,95 €</option>
+                            <option>MSI MAG A850GL PCIE5 850W — 106,90 €.</option>
+                            <option>Corsair CX750 750W Bronze: 750W — 72,61</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="summary">
+                <p style="margin:0 0 8px"><strong>Instrucciones:</strong></p>
+                <ul style="margin:0;padding-left:18px;font-size:.9rem;color:black">
+                    <li>Elige un procesador y una placa base con el mismo tipo de socket (por ejemplo, LGA1700 o AM5).
+                    </li>
+                    <li>La RAM debe ser DDR5, compatible con todas las placas de esta lista.</li>
+                    <li>Suma los precios para obtener el coste total aproximado.</li>
+                    <li>Para la fuente de alimentación, añade unos 100 W al consumo estimado del procesador y la
+                        gráfica.</li>
+                </ul>
+            </div>
+
+
+    </div>
+</body>
+
+</html>
